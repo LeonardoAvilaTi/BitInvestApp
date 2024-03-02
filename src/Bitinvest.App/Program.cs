@@ -29,10 +29,10 @@ builder.Services.AddRepositories();
 var app = builder.Build();
 
 
-if (app.Environment.IsDevelopment())
-{
+///if (app.Environment.IsDevelopment())
+//{
     app.UseSwaggerConfig();
-}
+//}
 
 app.UseHttpsRedirection();
 
